@@ -124,6 +124,10 @@ int main(void)
           break;
         } printf("query received: %s\n", query);
         printf("server: processing the query\n");
+      /*
+       This is where the query is being processed into response.
+       | | | | | 
+      */
       query[0] = 'L';
       query[1] = 'O';
       query[2] = 'L';
